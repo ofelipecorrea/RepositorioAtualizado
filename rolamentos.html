@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0">
+      <link rel="stylesheet" href="cssreset.css">
+      <link rel="stylesheet" href="rolamentos.css">
+      <script src="rolamento.js"></script>
+      <title>Rolamentos CoparTechMax</title>
+  </head>
+
+  <body style="overflow: auto;">
+    <header>
+      <div class="menu">
+          <nav>
+              <ul>
+                  <a href="index.html"><img src="logoprodutos.png"></a>
+                  <li><a href="#">Sobre</a></li>
+                  <li><a href="catalogo.html">Catalogo</a></li>
+                  <li><a href="contatos.html">Contatos</a></li>
+                  <li><a href="login.html">Login/Cadastro</a></li>
+              </ul>
+          </nav>   
+      </div> 
+  </header>
+      <table>
+          <tbody>
+            <tr>
+              <td><img src="rolamento axial.jpg" title="Rolamento Axial"></td>
+              <td><input type="number" pattern="\d*" min="0" max="100" value="0" onchange="atualizaValorTotal()" required></td>
+              <td class="preco">R$ 179,99</td>
+            </tr>
+            <tr>
+              <td><img src="rolamentoconico.png" title="Rolamento Conico"></td>
+              <td><input type="number" pattern="\d*" min="0" max="100" value="0" onchange="atualizaValorTotal()" required></td>
+              <td class="preco">R$ 195,00</td>
+            </tr>
+            <tr>
+              <td><img src="rolamento.png" title="Rolamento"></td>
+              <td><input type="number" pattern="\d*" min="0" max="100" value="0" onchange="atualizaValorTotal()" required></td>
+              <td class="preco">R$ 120,00</td>
+            </tr>
+            <tr>
+              <td><img src="rolamentoconico1.jpg" title="Rolamento"></td>
+              <td><input type="number" pattern="\d*" min="0" max="100" value="0" onchange="atualizaValorTotal()" required></td>
+              <td class="preco">R$ 250,00</td>
+            </tr>
+            <tr>
+              <td><img src="rolamentos-agulhas-01.jpg" title="Rolamento"></td>
+              <td><input type="number" pattern="\d*" min="0" max="100" value="0" onchange="atualizaValorTotal()" required></td>
+              <td class="preco">R$ 220,00</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="total">
+              <td class="total">Total</td>
+              <td class="total"><span id="quantidade-total">0</span> unidades</td>
+              <td class="total"><span id="valor-total">R$ 0,00</span></td>    
+          </tfoot>
+        </table>
+        <footer>
+          <p><img src="logoprodutos.png"></p>
+          <p class="text">&copy; Copyright Felipe Corrêa - 2023</p>
+        </footer>
+  </body>
+</html>

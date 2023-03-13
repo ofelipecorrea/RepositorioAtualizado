@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url(industria2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255,255,255,0.2);
+}
+
+div {
+    padding-top: 55px;
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul img {
+    width: 20vh;
+    margin-right: 40px;
+    min-width: auto;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li :hover {
+    color: black;
+    opacity: 0.8;
+}
+
+/* Menu / Cabeçalho */
+
+/* Corpo */
+table {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+td img {
+    padding-top: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.preco {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: #ffffff;
+}
+
+td input {
+	border-radius: 50em;
+	border: 3px solid transparent;
+	position: relative;
+	display: inline-flex;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+    text-align: center;
+}
+
+.total {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255,255,255,0.6);
+    width: 2%;
+    display: list-item -moz-inline-stack;
+    padding: 15px;
+}
+
+footer img {
+    padding-top: 25px;
+}
+
+footer p {
+    text-align: center;
+    background-image: url(imagem-de-fundo-ruído-abstrato-preto-uso-para-textura-design-manipulação-fotos-181584925.jpg);
+    padding-bottom: 20px;
+}
+/* Scroll Bar  */
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4f4fFF;
+    border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4f4fFF;
+}
+
+/* Scroll Bar   */

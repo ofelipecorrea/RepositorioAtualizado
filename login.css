@@ -1,0 +1,147 @@
+body {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    background: -webkit-linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    background: linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    position: relative;
+    height: auto;
+    background-repeat: repeat;
+}
+
+.logo {
+    margin : 13px;
+    max-width: 300px;
+}
+
+.caixa {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 0 0 55px 55px;
+
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #0000f0;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li :hover {
+    color: black;
+    opacity: 0.8;
+}
+
+
+footer {
+    background-image: url(imagem-de-fundo-ruído-abstrato-preto-uso-para-textura-design-manipulação-fotos-181584925.jpg);
+    padding-top: 10px;
+    margin-top: 55px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(255,255,255,0.5);
+}
+
+main {
+    margin: 0 auto;
+}
+
+form {
+    padding: 25px;
+}
+
+form label {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    border-radius: 13px;
+    font-size: 16px ;
+    border-style: unset;
+    padding: 15px 95px;
+}
+
+form textarea {
+    margin: 0 0 20px;
+    border-radius: 13px;
+}
+
+p {
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.checkbox {
+    display: inline-flex;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.checkbox input {
+    margin: 0px 0px 15px 15px;
+}
+
+input[type="submit"] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #c6c6c6;
+    color: rgba(0, 76, 255, 0.611);
+}
+
+input:hover[type="submit"] {
+    background-color: darkslategray;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.titlehrcontact {
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4f4fFF;
+    border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4f4fFF;
+}
